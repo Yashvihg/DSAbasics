@@ -1,5 +1,27 @@
 
 ## 📚 Binary Search Based problems
+#
+ABOVE QUESTIONS:
+
+1) binarySearch.cpp
+2) orderAgnostic.cpp
+3) FirstLastOccurence.cpp
+4) countBS.cpp
+5) countRotation.cpp
+6) SearchRotatedBS.cpp
+7) nearlySorted.cpp
+8) FindFloor.cpp
+9) findCeil.cpp
+10) necxtAlphabet.cpp
+11) infiniteArr.cpp
+12) infiniteFirstLast.cpp
+13) minDifference.cpp
+14) peakElement.cpp
+15) bitonicOne.cpp
+16) bitonicSearch.cpp
+17) RowColumnSearch.cpp
+18) allocateMinPages.cpp
+
 
 ### Questions to do - related questions for practice. 
 * Book Allocation Problem (GFG)
@@ -17,3 +39,5 @@ LEETCODE PROBLEMS:
 * Minimize 
 * 774 Max Distance to Gas Station
 * 410 Split Array Largest Sum
+
+ 
