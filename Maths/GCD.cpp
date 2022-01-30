@@ -1,7 +1,7 @@
 // three solutions to the same --> 
 
 //optimized approach (euclidean algorithm)
-#include "Bits/stdc++.h"
+#include "bits/stdc++.h"
 using namespace std;
 int gcd(int a, int b)
 {
