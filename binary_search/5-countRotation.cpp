@@ -9,7 +9,7 @@ int countRotations(int a[], int s, int e, int n){
     
     while(s<=e){
         int mid=s+(e-s)/2;
-        //to find the smallest value ->
+        //to find the smallest value -> avoid going out of bounds do %N
         int next=(mid+1)%n;
         int prev=(mid+n-1)%n;
         // if(e==s || a[s] <=a[e])

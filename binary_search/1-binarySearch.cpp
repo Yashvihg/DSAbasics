@@ -2,7 +2,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-int binarySearch(int a[], int n, int key){
+int binarySearch(int a[], int n, int key) {
     int s=0, e=n-1; // intializing start and end
     while(s<=e){
         int mid = (s+e)/2;
@@ -14,7 +14,6 @@ int binarySearch(int a[], int n, int key){
             s=mid+1;
     }
     return -1;
-
 }
 
 int main(){

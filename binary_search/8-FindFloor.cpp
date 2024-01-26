@@ -3,6 +3,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
+//this is to find the greatest element before the given element. 
 int floorSearch(int a[], int n, int floor){
     int s=0, e=n-1, res= -1;
     if(floor>=a[e]){ return a[e];}

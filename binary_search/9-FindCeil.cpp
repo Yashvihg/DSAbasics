@@ -1,8 +1,9 @@
 // To find the ceiling of a number in a sorted array
+//https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/#practice
 
 #include "bits/stdc++.h"
 using namespace std;
-
+//this is to find the greatest element after the given element. 
 int ceilSearch( int a[], int n, int ceil){
     int s=0, e=n-1, res=-1; 
     // if(ceil>a[e]){return cout<<"Ceil doesnt Exist";}

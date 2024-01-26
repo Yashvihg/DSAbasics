@@ -57,3 +57,55 @@ int main(){
     
 
 }
+
+
+
+
+/*
+pair<long,long> indexes(vector<long long> v, long long x)
+    {
+         long start=0;
+         long end = v.size()-1;
+         long  f=-1,l=-1;
+        while(start<=end)
+        {
+             // long mid=start+(end-start)/2;
+             long mid=(start+end)/2;
+            if(v[mid] == x)
+            {
+                if(v[mid-1]!=x || mid==start)
+                {
+                    f = mid;
+                     break;
+                }
+               
+                else end=mid-1;
+                
+            }
+            else if(v[mid]<x) start= mid+1;
+            else end=mid-1;
+        }
+        start=0,end=v.size()-1;
+         while(start<=end)
+        {
+            //long mid=start+(end-start)/2;
+             long mid=(start+end)/2;
+            if(v[mid] == x)
+            {
+                if(v[mid+1]!=x || mid==end)
+                {
+                    l=mid;
+                    break;
+                }
+                
+                else start=mid+1;
+                
+            }
+            else if(v[mid]<x)  start= mid+1;
+            else end=mid-1;
+        }
+        pair<long,long>p;
+        p.first=f;
+        p.second=l;
+        return p ;
+    }*/
